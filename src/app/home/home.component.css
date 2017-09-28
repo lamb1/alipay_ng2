@@ -26,3 +26,41 @@
     background: url("../../images/icon_card.png") no-repeat center;
     background-size: cover;
 }
+.application{background-color: #ffffff;font-size: 12px;}
+.header_app{padding-top: 10px}
+.app1 i{
+    background: url("../../images/icon_balance.png") no-repeat center;
+    background-size: cover;
+}
+.app2 i{
+    background: url("../../images/huabei.png") no-repeat center;
+    background-size: cover;
+}
+.app3 i{
+    background: url("../../images/balance.png") no-repeat center;
+    background-size: cover;
+}
+.app4 i{
+    background: url("../../images/sesame_credit.png") no-repeat center;
+    background-size: cover;
+}
+.app5 i{
+    background: url("../../images/city_service.png") no-repeat center;
+    background-size: cover;
+}
+.app6 i{
+    background: url("../../images/ofo.png") no-repeat center;
+    background-size: cover;
+}
+.app7 i{
+    background: url("../../images/express_delivery.png") no-repeat center;
+    background-size: cover;
+}
+.app8 i{
+    background: url("../../images/red_envelopes.png") no-repeat center;
+    background-size: cover;
+}
+.more i{
+    background: url("../../images/more.png") no-repeat center;
+    background-size: cover;
+}
