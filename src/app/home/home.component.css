@@ -1,1 +1,28 @@
-.top{width: 100%;height: 120px;background-color: #1296db;color: #ffffff;}
+.top{width: 100%;height: auto;background-color: #1296db;color: #ffffff;}
+.top_search{margin-bottom: 20px;}
+.top .add{display: inline-block;width: 30px;height: 30px;margin: 2px;}
+
+.header{display: flex;align-items: center;justify-content: center}
+.box{width: 25%;height: 60px;margin-bottom: 0;text-align: center}
+.box i{
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+}
+.box1 i{
+    background: url("../../images/icon_scan.png") no-repeat center;
+    background-size: cover;
+}
+.box2 i{
+    background: url("../../images/icon_payCode.png") no-repeat center;
+    background-size: cover;
+}
+.box3 i{
+    background: url("../../images/icon_collect.png") no-repeat center;
+    background-size: cover;
+}
+.box4 i{
+    background: url("../../images/icon_card.png") no-repeat center;
+    background-size: cover;
+}
