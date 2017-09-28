@@ -6,9 +6,10 @@
 .box{width: 25%;height: 60px;margin-bottom: 0;text-align: center}
 .box i{
     display: block;
-    margin: 0 auto 15px;
+    margin: 0 auto;
     width: 30px;
     height: 30px;
+    margin-bottom: 5px;
 }
 .box1 i{
     background: url("../../images/icon_scan.png") no-repeat center;
