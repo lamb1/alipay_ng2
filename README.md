@@ -23,3 +23,6 @@
 - 开启项目： `npm start`
 
 - 浏览器打开： `http://localhost:3100` ( port 修改可在package.json  "scripts">"server" 修改 --port ,手机访问可加 --host 192.168.1.1 )
+
+
+该项目所有icon图标 来自**http://www.iconfont.cn/**
