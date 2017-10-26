@@ -1,6 +1,6 @@
 # alipay_ng2
 
-用angular2框架，模仿移动端支付宝页面<img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" />
+用angular2框架，模仿移动端支付宝页面
 
 
 项目结构:
