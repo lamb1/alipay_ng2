@@ -21,23 +21,8 @@
         </div>
     </section>
     <section class="application">
-        <div class="header header_app">
-            <div class="box app1"><i></i>转账</div>
-            <div class="box app2"><i></i>花呗</div>
-            <div class="box app3"><i></i>余额宝</div>
-            <div class="box app4"><i></i>芝麻信用</div>
-        </div>
-        <div class="header header_app">
-            <div class="box app5"><i></i>城市服务</div>
-            <div class="box app6"><i></i>共享单车</div>
-            <div class="box app7"><i></i>我的快递</div>
-            <div class="box app8"><i></i>红包</div>
-        </div>
-        <div class="header header_app">
-            <div class="box app1"><i></i>转账</div>
-            <div class="box app2"><i></i>余额宝</div>
-            <div class="box app3"><i></i>余额宝</div>
-            <div class="box more"><i></i>更多</div>
+        <div class="header header_app" *ngFor="let item of homeData">
+            <div class="box app1" *ngFor="let item1 of item" (click)="onClickThis(item1.name)"><i [ngStyle]="{'background': item1.img,'background-size':'cover'}"></i>{{item1.name}}</div>
         </div>
     </section>
 </div>

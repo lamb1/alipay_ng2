@@ -1,0 +1,17 @@
+.top{
+    position: absolute;
+    height: 1rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #ffffff;
+}
+.top .return{
+    display: inline-block;
+    width: 0.53rem;
+    height: 0.53rem;
+    margin: 8px;
+    background: url("../../images/return.png") center center no-repeat;
+    background-size:auto 100%;
+}

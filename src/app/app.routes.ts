@@ -4,6 +4,7 @@ import {HomeComponent} from './home';
 import {ShopComponent} from './shop';
 import {FriendsComponent} from './friends';
 import {MineComponent} from './mine';
+import {AllAppComponent} from './allApp';
 // import {animationsComponent} from './animation'
 
 // import {CanActivateGuard} from '../services/can-activate-guard';
@@ -14,7 +15,6 @@ export const rootRouterConfig: Routes = [
         path: "",
         redirectTo: "home",
         pathMatch: 'full',
-
     },
     {
         path: "home",
@@ -31,5 +31,9 @@ export const rootRouterConfig: Routes = [
     {
         path: "mine",
         component: MineComponent,
+    },
+    {
+        path: "allApp",
+        component: AllAppComponent,
     },
 ];

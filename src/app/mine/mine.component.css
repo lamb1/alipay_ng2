@@ -1,3 +1,15 @@
+.box_top{
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+}
 .top{width: 100%;height: 150px;background-color: #1296db;color: #ffffff;}
 .top .tips{padding: 3%;font-size: 16px;}
 

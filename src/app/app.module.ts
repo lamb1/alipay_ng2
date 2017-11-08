@@ -13,13 +13,14 @@ import {HomeComponent} from './home';
 import {ShopComponent} from './shop';
 import {FriendsComponent} from './friends';
 import {MineComponent} from './mine';
+import {AllAppComponent} from './allApp';
 // import {animationsComponent} from './animation';
 
 // import {CanActivateGuard} from '../services/can-activate-guard';
 
 
 import {
-    FooterComponent,
+    FooterComponent, HomeIconService
     // HeaderComponent, PhonePipe, BtnClickDirective
 } from "./shared";
 
@@ -31,13 +32,15 @@ import {
         FriendsComponent,
         MineComponent,
         FooterComponent,
+        AllAppComponent
         // PhonePipe,
         // BtnClickDirective,animationsComponent
     ],
     imports: [BrowserModule, FormsModule, HttpModule, RouterModule.forRoot(rootRouterConfig)],
-    // providers: [ContactService, UtilService, CanActivateGuard,
+    providers: [HomeIconService
+        // , UtilService, CanActivateGuard,
         // {provide: APP_BASE_HREF, useValue:'/'}
-    // ],
+    ],
     bootstrap: [AppComponent]
 })
 

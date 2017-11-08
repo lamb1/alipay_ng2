@@ -1,1 +1,33 @@
+<style>
+    .box_top{
+        overflow-y: scroll;
+        position: absolute;
+        bottom: 60px;
+        top: 0;
+        left: 0;
+        right: 0;
+        -webkit-overflow-scrolling: touch;
+        -moz-overflow-scrolling: touch;
+        -o-overflow-scrolling: touch;
+        -ms-overflow-scrolling: touch;
+    }
+</style>
+<input type="radio" name="sex" [(ngModel)]="curContact.sex" value="female">女
+<input type="radio" name="sex" [(ngModel)]="curContact.sex" value="male">男
+
+<input type="checkbox" name="lock" [(ngModel)]="curContact.lock">禁用
+
+<select multiple name="interestMul" [(ngModel)]="curContact.interestMul">
+    <option *ngFor="let interest of interests"  value="{{interest.value}}">{{interest.display}}</option>
+</select>
+
+<ul>
+    <li>
+        <label for="name">姓名：</label>
+        <input type="text" #contactName name="contactName" id="contactName" />
+        <input type="text" ref-telNum name="telNum" id="telNum" />
+        <p>{{contactName.value}} -- {{telNum.value}}</p>
+    </li>
+</ul>
+
 <ali-footer></ali-footer>

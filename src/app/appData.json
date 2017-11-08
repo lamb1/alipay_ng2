@@ -1,0 +1,153 @@
+[
+  {
+    "id":1,
+    "name":"便民生活",
+    "all":[
+      {
+        "id" : 1,
+        "name" : "我的快递",
+        "img" : "express_delivery.png"
+      },
+      {
+        "id" : 8,
+        "name" : "共享单车",
+        "img" : "ofo.png"
+      },
+      {
+        "id" : 11,
+        "name" : "城市一卡通",
+        "img" : "cityCard.png"
+      },
+      {
+        "id" : 7,
+        "name" : "城市服务",
+        "img" : "city_service.png"
+      },
+      {
+        "id" : 7,
+        "name" : "生活号",
+        "img" : "lifeNumber.png"
+      }
+    ]
+  },
+  {
+    "id":1,
+    "name":"财富管理",
+    "all":[
+      {
+        "id" : 1,
+        "name" : "余额宝",
+        "img" : "balance.png"
+      },
+      {
+        "id" : 8,
+        "name" : "花呗",
+        "img" : "ofo.png"
+      },
+      {
+        "id" : 11,
+        "name" : "芝麻信用",
+        "img" : "lifeNumber.png"
+      },
+      {
+        "id" : 7,
+        "name" : "蚂蚁财富",
+        "img" : "ant_wealth.png"
+      },
+      {
+        "id" : 7,
+        "name" : "股票",
+        "img" : "stock.png"
+      }
+    ]
+  },
+  {
+    "id":1,
+    "name":"资金来往",
+    "all":[
+      {
+        "id" : 1,
+        "name" : "转账",
+        "img" : "icon_carry.png"
+      },
+      {
+        "id" : 8,
+        "name" : "红包",
+        "img" : "red_envelopes.png"
+      },
+      {
+        "id" : 10,
+        "name" : "上银汇款",
+        "img" : "remittance.png"
+      }
+    ]
+  },
+  {
+    "id":1,
+    "name":"购物娱乐",
+    "all":[
+      {
+        "id" : 1,
+        "name" : "游戏中心",
+        "img" : "game.png"
+      },
+      {
+        "id" : 8,
+        "name" : "出境",
+        "img" : "outCounty.png"
+      },
+      {
+        "id" : 11,
+        "name" : "彩票",
+        "img" : "lottery.png"
+      },
+      {
+        "id" : 7,
+        "name" : "人脸识别",
+        "img" : "faceRecognition.png"
+      },
+      {
+        "id" : 7,
+        "name" : "奖励金",
+        "img" : "bonus.png"
+      }
+    ]
+  },
+  {
+    "id":1,
+    "name":"教育公益",
+    "all":[
+      {
+        "id" : 1,
+        "name" : "校园工作",
+        "img" : "campusWork.png"
+      },
+      {
+        "id" : 8,
+        "name" : "教育缴费",
+        "img" : "eduPayment.png"
+      },
+      {
+        "id" : 11,
+        "name" : "爱心捐赠",
+        "img" : "loveDonations.png"
+      },
+      {
+        "id" : 7,
+        "name" : "蚂蚁森林",
+        "img" : "forest.png"
+      },
+      {
+        "id" : 7,
+        "name" : "中小学",
+        "img" : "primarySchools.png"
+      },
+      {
+        "id" : 7,
+        "name" : "运动",
+        "img" : "movement.png"
+      }
+    ]
+  }
+
+]
