@@ -28,4 +28,4 @@
 该项目所有icon图标 来自**http://www.iconfont.cn/**
 
 
-<img src="https://raw.githubusercontent.com/lamb1/alipay_ng2/master/src/images/logo.png" />
+<img src="https://raw.githubusercontent.com/lamb1/alipay_ng2/master/src/images/mineScreenshots.png" />
