@@ -7,6 +7,7 @@
 
         └─src
             ├─app
+            │  ├─allApp   (所有应用)
             │  ├─friends  (朋友)
             │  ├─home     (首页)
             │  ├─mine     (我的)
