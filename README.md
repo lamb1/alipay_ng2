@@ -27,5 +27,8 @@
 
 该项目所有icon图标 来自**http://www.iconfont.cn/**
 
+- `首页`部分截图 -
+<img src="https://raw.githubusercontent.com/lamb1/alipay_ng2/master/src/images/homeScreenshots.png" />
 
+- `我的`部分截图 -
 <img src="https://raw.githubusercontent.com/lamb1/alipay_ng2/master/src/images/mineScreenshots.png" />
